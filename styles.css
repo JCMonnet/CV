@@ -3,6 +3,8 @@ h1 {
 }
 
 p {
-    font-style: oblique;
+    font-style: bold; 
     background-color: aqua;
+    display: inline-block; width 200px;
 }
+
