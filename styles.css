@@ -1,9 +1,15 @@
-h1,ol 
+h2 em
+{
+    color: deeppink;
+}
+
+h2 + p
 {
     color: green;
 }
 
 .intro
 {
-    color: red
+    color: crimson;
 }
+
