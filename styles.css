@@ -1,6 +1,6 @@
-h2 em
+h2 
 {
-    color: deeppink;
+    color: rgb(20, 255, 216);
 }
 
 h2 + p
@@ -13,3 +13,17 @@ h2 + p
     color: crimson;
 }
 
+a[title]
+{
+    background-color: aqua;
+}
+
+h2
+{
+    font-size: 2em; font-style: Arial, impact,oblique,serif;
+}
+
+h1
+{
+    text-align: center;
+}
