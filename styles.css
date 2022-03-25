@@ -1,6 +1,6 @@
 h2 
 {
-    color: rgb(20, 255, 216);
+    color: rgb(238, 245, 244);
 }
 
 h2 + p
@@ -26,4 +26,52 @@ h2
 h1
 {
     text-align: center;
+}
+
+em
+{
+    font-weight: bold;
+}
+
+li
+{
+    text-decoration: underline;
+}
+
+p
+{
+    text-align: justify;
+}
+
+.flottante
+{
+    float: left;
+}
+
+.dessous
+{
+    clear: both;
+}
+
+body {
+    background-color: black;
+    color: aqua;
+}
+
+mark{
+    background-color: yellow;
+}
+
+h1 {
+    border: 10px solid rebeccapurple;
+    color: brown;
+    background-color: darkgrey;
+}
+
+strong {
+    font-size: 1.5em;
+    color: brown;
+}
+.non souligné {
+    text-decoration: none;
 }
