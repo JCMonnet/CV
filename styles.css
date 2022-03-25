@@ -55,6 +55,8 @@ p
 
 body {
     background-color: black;
+    background: url("images/ciel.png") fixed no-repeat;
+    background-size: cover;
     color: aqua;
 }
 
@@ -71,7 +73,4 @@ h1 {
 strong {
     font-size: 1.5em;
     color: brown;
-}
-.non souligné {
-    text-decoration: none;
 }
