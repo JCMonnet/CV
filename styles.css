@@ -34,19 +34,15 @@ em
     font-weight: bold;
 }
 
-li
+ol
 {
     text-decoration: underline;
 }
 
-p
-{
-    text-align: justify;
-}
-
 .flottante
 {
-    float: left;
+    float:left;
+    
 }
 
 .dessous
@@ -61,7 +57,7 @@ body {
 }
 
 mark{
-    background-color: yellow;
+    background-color: orange;
 }
 
 strong {
@@ -74,3 +70,15 @@ strong {
     text-shadow: 2px 2px 0px black;
     color: yellow;
 }
+
+a {
+    color: aqua;
+    font-style: italic;
+}
+
+a:hover {
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+
