@@ -1,22 +1,16 @@
 h2 
 {
     color: rgb(238, 245, 244);
-}
-
-h2 + p
-{
-    color: green;
+    text-shadow: 2px 2px 6px;
 }
 
 .intro
 {
-    color: crimson;
+    font-size: 1.2em;
+    border-left: 10px white dashed;
+    border-radius: 5px;
 }
 
-a[title]
-{
-    background-color: aqua;
-}
 
 h2
 {
@@ -26,6 +20,13 @@ h2
 h1
 {
     text-align: center;
+    border-top: 10px groove green;
+    border-bottom: 10px groove red;
+    border-left: 10px groove yellow;
+    border-right: 10px groove yellow;
+    background-color: grey;
+    color: black;
+    border-radius: 20px/40px;
 }
 
 em
@@ -54,23 +55,22 @@ p
 }
 
 body {
-    background-color: black;
-    background: url("images/ciel.png") fixed no-repeat;
+    background: url("images/ciel.jpg") fixed no-repeat; 
     background-size: cover;
-    color: aqua;
+    color: black;
 }
 
 mark{
     background-color: yellow;
 }
 
-h1 {
-    border: 10px solid rebeccapurple;
-    color: brown;
-    background-color: darkgrey;
-}
-
 strong {
     font-size: 1.5em;
-    color: brown;
+    color: rgb(157, 165, 42);
+}
+
+.ombre {
+    box-shadow: 6px 6px 6px black;
+    text-shadow: 2px 2px 0px black;
+    color: yellow;
 }
