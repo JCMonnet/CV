@@ -2,22 +2,18 @@ h2
 {
     color: rgb(238, 245, 244);
     text-shadow: 2px 2px 6px;
+    font-size: 2em; font-style: Arial, impact,oblique,serif;
+    text-align: center;
+    text-decoration: underline 2px black;
 }
 
 .intro
 {
     font-size: 1.2em;
-    border-left: 10px white dashed;
-    border-radius: 5px;
+    border-left: 0.4em solid grey;
 }
 
-
-h2
-{
-    font-size: 2em; font-style: Arial, impact,oblique,serif;
-}
-
-h1
+div h1
 {
     text-align: center;
     border-top: 10px groove green;
@@ -27,11 +23,14 @@ h1
     background-color: grey;
     color: black;
     border-radius: 20px/40px;
+    font-family: "AlexBrush-Regular.ttf", Arial, Helvetica, sans-serif;
+    margin: 2px 750px ;
 }
 
 em
 {
     font-weight: bold;
+    color: aliceblue;
 }
 
 ol
@@ -42,7 +41,6 @@ ol
 .flottante
 {
     float:left;
-    
 }
 
 .dessous
@@ -51,13 +49,13 @@ ol
 }
 
 body {
-    background: url("images/ciel.jpg") fixed no-repeat; 
-    background-size: cover;
-    color: black;
+    background:url("images/ciel.jpg") fixed no-repeat;
 }
+
 
 mark{
     background-color: orange;
+    font-size: x-small;
 }
 
 strong {
@@ -81,4 +79,8 @@ a:hover {
     font-size: 1.5em;
 }
 
+@font-face {
+    font-family: "AlexBrush-Regular.ttf";
+    src: url("AlexBrush-Regular.ttf");
+}
 
