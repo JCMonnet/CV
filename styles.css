@@ -2,7 +2,8 @@ h2
 {
     color: rgb(238, 245, 244);
     text-shadow: 2px 2px 6px;
-    font-size: 2em; font-style: Arial, impact,oblique,serif;
+    font-size: 2em;
+    font-family: Arial, Impact,sans-serif;
     text-align: center;
     text-decoration: underline 2px black;
 }
@@ -33,25 +34,8 @@ em
     color: orangered;
 }
 
-
-.flottante
-{
-    float:left;
-}
-
-.dessous
-{
-    clear: both;
-}
-
 body {
-    background:url("images/soleil.gif") fixed no-repeat top right, url("images/ciel.jpg") fixed no-repeat ;
-}
-
-
-mark{
-    background-color: orange;
-    font-size: x-small;
+    background:url("images/mini_soleil.gif") fixed no-repeat top right, url("images/ciel.jpg") fixed no-repeat ;
 }
 
 .ombre {
