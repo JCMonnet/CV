@@ -45,7 +45,7 @@ em
 }
 
 body {
-    background:url("images/ciel.jpg") fixed no-repeat;
+    background:url("images/soleil.gif") fixed no-repeat top right, url("images/ciel.jpg") fixed no-repeat ;
 }
 
 
