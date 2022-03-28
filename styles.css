@@ -30,13 +30,9 @@ header h1
 em
 {
     font-weight: bold;
-    color: aliceblue;
+    color: orangered;
 }
 
-ol
-{
-    text-decoration: underline;
-}
 
 .flottante
 {
@@ -79,3 +75,6 @@ a:hover {
     src: url("AlexBrush-Regular.ttf");
 }
 
+p {
+    text-align: center;
+}
