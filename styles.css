@@ -1,21 +1,10 @@
-h2 
-{
-    color: rgb(238, 245, 244);
-    text-shadow: 2px 2px 6px;
-    font-size: 2em;
-    font-family: Arial, Impact,sans-serif;
-    text-align: center;
-    text-decoration: underline 2px black;
+@font-face {
+    font-family: "fonts/Smokum-Regular.ttf";
+    src: url("fonts/Smokum-Regular.ttf");
 }
 
-ul{
-    list-style-type:none;
-}
-
-.intro
-{
-    font-size: 1.2em;
-    text-align: center;
+body {
+    background:url("images/ciel.jpg") fixed no-repeat ;
 }
 
 header h1
@@ -33,41 +22,46 @@ header h1
     font-family: 'Smokum', cursive;
 }
 
+div p{
+    text-align: center;
+}
+
+
+h2 
+{
+    color: rgb(238, 245, 244);
+    text-shadow: 2px 2px 6px;
+    font-size: 2em;
+    font-family: Arial, Impact,sans-serif;
+    text-align: center;
+    text-decoration: underline 2px black;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    font-size: 1.2em;
+}
+
 em
 {
     font-weight: bold;
     color: orangered;
 }
 
-body {
-    background:url("images/ciel.jpg") fixed no-repeat ;
+#conteneur{
+    display: flex;
+    flex-direction: column;
 }
 
-.ombre {
-    box-shadow: 6px 6px 6px black;
-    text-shadow: 2px 2px 0px black;
-    color: yellow;
+section {
+    margin: auto;
+    width:40%;
+    background: yellow;
 }
-
-a {
-    color: aqua;
-    font-style: italic;
-}
-
-a:hover {
-    color: aliceblue;
-    font-size: 1.5em;
-}
-
-@font-face {
-    font-family: "fonts/Smokum-Regular.ttf";
-    src: url("fonts/Smokum-Regular.ttf");
-}
-
-p {
+footer p {
     text-align: center;
 }
 
-#contenru{
-    display: flex;
-}
