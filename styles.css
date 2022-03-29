@@ -8,9 +8,14 @@ h2
     text-decoration: underline 2px black;
 }
 
+ul{
+    list-style-type:none;
+}
+
 .intro
 {
     font-size: 1.2em;
+    text-align: center;
 }
 
 header h1
