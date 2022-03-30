@@ -62,7 +62,6 @@ em
 section {
     margin: auto;
     width:40%;
-    background: yellow;
 }
 
 .element:nth-child(1)
