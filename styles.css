@@ -25,7 +25,10 @@ header h1
 div p{
     text-align: center;
 }
-
+.grand{
+    font-size: 2em;
+    text-decoration: underline;
+}
 
 h2 
 {
@@ -61,7 +64,25 @@ section {
     width:40%;
     background: yellow;
 }
-footer p {
+
+.element:nth-child(1)
+{
+    order: 1;
+}
+.element:nth-child(2)
+{
+    order: 2;
+}
+.element:nth-child(3)
+{
+    order: 3;
+}
+.element:nth-child(4)
+{
+    order: 4;
+}
+
+footer p{
     text-align: center;
 }
 
