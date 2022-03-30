@@ -30,12 +30,12 @@ a{
 
 div p{
     text-align: center;
-}
-.grand{
     font-size: 2em;
     text-decoration: underline;
     font-style: italic;
+    font-weight: bold;
 }
+
 
 h2 
 {
