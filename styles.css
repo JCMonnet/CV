@@ -22,30 +22,27 @@ header h1
     font-family: 'Smokum', cursive;
 }
 
+a{
+        margin:40px auto;
+        width:100px;
+        display:block;
+}
+
 div p{
     text-align: center;
 }
 .grand{
     font-size: 2em;
     text-decoration: underline;
+    font-style: italic;
 }
 
 h2 
 {
-    color: rgb(238, 245, 244);
-    text-shadow: 2px 2px 6px;
+    color: whitesmoke;
     font-size: 2em;
     font-family: Arial, Impact,sans-serif;
-    text-align: center;
     text-decoration: underline 2px black;
-}
-
-ul{
-    list-style-type:none;
-}
-
-li{
-    font-size: 1.2em;
 }
 
 em
@@ -61,12 +58,13 @@ em
 
 section {
     margin: auto;
-    width:40%;
+    width:30%;
 }
 
 .element:nth-child(1)
 {
     order: 1;
+
 }
 .element:nth-child(2)
 {
