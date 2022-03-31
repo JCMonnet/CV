@@ -16,7 +16,7 @@ header {
     font-size: 1.5em;
     font-family: 'Smokum', cursive;
     background-image: url("images/ciel.png");
-    height: 120px;
+    height: 150px;
     background-size: cover;
 }
 
@@ -24,6 +24,7 @@ a {
     margin: 40px auto;
     width: 100px;
     display: block;
+    text-align: center;
 }
 
 div p {
@@ -68,47 +69,36 @@ main section article {
 
 main section div {
     display: flex;
-    flex-flow:row wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding-left: 5%;
 }
 
-img {
-    width: 40px;
-    height: 40px;
+.aime img {
+    width: 50px;
+    height: 50px;
     border: 0px solid;
     border-radius: 50%;
-}
-
-
-
-/* .element:nth-child(1)
-{
-    order: 1;
 
 }
-.element:nth-child(2)
-{
-    order: 2;
-}
-.element:nth-child(3)
-{
-    order: 3;
-}
-.element:nth-child(4)
-{
-    order: 4;
-} */
 
 footer p {
     text-align: center;
     background-image: url("images/ciel.png");
-    height: 120px;
+    height: 150px;
     background-size: cover;
+    font-size: 1.2em;
 }
 
+span {
+    color: orangered;
+    font-size: 1.1em;
+}
 
-
-@media all and (max-width:1440px) {
-
+@media all and (max-width:2560px) {
     main {
         flex-wrap: wrap;
         margin: auto;
@@ -117,28 +107,61 @@ footer p {
 
     main section {
         width: 45%;
-        height: 400px;
-        margin: 1%;
-
+        height: 60%;
+        margin: 2%;
+        width: 300px;
     }
 
-   
+    footer {
+        height: 90px;
+    }
+}
 
+@media all and (max-width:1440px) {
+    main {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    main section article {
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    main section {
+        width: 45%;
+        height: 60%;
+        margin: 2%;
+        width: 350px;
+    }
+
+    footer {
+        height: 90px;
+    }
 }
 
 @media all and (max-width:768px) {
-    body {
-        /* background:yellow; */
-    }
 
     main {
         flex-direction: column;
         padding: 4%;
+        margin-bottom: 0%;
+    }
 
+    main section article {
+        text-align: center;
+        padding-left: 5%;
     }
 
     main section {
         display: block;
         width: 90%;
+        height: 60%;
+        text-align: center;
     }
 
+    footer {
+        height: 90px;
+    }
+}
